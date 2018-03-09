@@ -1,0 +1,12 @@
+*.log
+**/node_modules/**
+**/coverage/**
+**/.nyc_output/**
+**/.vscode/**
+.idea/
+
+.terraform
+terraform.tfvars
+terraform.tfstate.backup
+**/.DS_Store
+

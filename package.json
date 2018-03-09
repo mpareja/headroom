@@ -22,7 +22,7 @@
   "scripts": {
     "clean": "rimraf .nyc_output coverage",
     "cov": "opener coverage/lcov-report/index.html",
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "standard --env mocha",
     "test": "npm run clean && npm run lint && npm run security && nyc npm run test-only",
     "test-only": "mocha --recursive --reporter ${MOCHA_REPORTER:-spec}",
     "watch-test": "mocha --recursive -w",
@@ -38,6 +38,8 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
+    "isomorphic-unfetch": "^2.0.0",
+    "nock": "^9.2.3",
     "standard": "^11.0.0"
   }
 }

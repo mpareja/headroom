@@ -1,0 +1,849 @@
+{
+  "links": {
+    "self": "/activity-groups"
+  },
+  "included": [
+    {
+      "type": "orderedActivities",
+      "id": "111",
+      "attributes": {
+        "ordinalNumber": 0
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "111"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "112",
+      "attributes": {
+        "ordinalNumber": 1
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "112"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "113",
+      "attributes": {
+        "ordinalNumber": 2
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "113"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "114",
+      "attributes": {
+        "ordinalNumber": 3
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "114"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "115",
+      "attributes": {
+        "ordinalNumber": 4
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "115"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "116",
+      "attributes": {
+        "ordinalNumber": 5
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "116"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "117",
+      "attributes": {
+        "ordinalNumber": 6
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "117"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "118",
+      "attributes": {
+        "ordinalNumber": 7
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "118"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "119",
+      "attributes": {
+        "ordinalNumber": 8
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "119"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "120",
+      "attributes": {
+        "ordinalNumber": 9
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "120"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "121",
+      "attributes": {
+        "ordinalNumber": 10
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "121"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "122",
+      "attributes": {
+        "ordinalNumber": 11
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "122"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "123",
+      "attributes": {
+        "ordinalNumber": 12
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "123"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "124",
+      "attributes": {
+        "ordinalNumber": 13
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "124"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "125",
+      "attributes": {
+        "ordinalNumber": 14
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "125"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "126",
+      "attributes": {
+        "ordinalNumber": 15
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "126"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "127",
+      "attributes": {
+        "ordinalNumber": 16
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "127"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "128",
+      "attributes": {
+        "ordinalNumber": 17
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "128"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "129",
+      "attributes": {
+        "ordinalNumber": 18
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "129"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "130",
+      "attributes": {
+        "ordinalNumber": 19
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "130"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "131",
+      "attributes": {
+        "ordinalNumber": 20
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "131"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "132",
+      "attributes": {
+        "ordinalNumber": 21
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "132"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "133",
+      "attributes": {
+        "ordinalNumber": 22
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "133"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "134",
+      "attributes": {
+        "ordinalNumber": 23
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "134"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "135",
+      "attributes": {
+        "ordinalNumber": 24
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "135"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "136",
+      "attributes": {
+        "ordinalNumber": 25
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "136"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "137",
+      "attributes": {
+        "ordinalNumber": 26
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "137"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "138",
+      "attributes": {
+        "ordinalNumber": 27
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "138"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "139",
+      "attributes": {
+        "ordinalNumber": 28
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "139"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedActivities",
+      "id": "140",
+      "attributes": {
+        "ordinalNumber": 29
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "140"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedTechniques",
+      "id": "15",
+      "attributes": {
+        "ordinalNumber": 0
+      },
+      "relationships": {
+        "technique": {
+          "data": {
+            "type": "techniques",
+            "id": "5"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "orderedTechniques",
+      "id": "16",
+      "attributes": {
+        "ordinalNumber": 1
+      },
+      "relationships": {
+        "technique": {
+          "data": {
+            "type": "techniques",
+            "id": "11"
+          }
+        },
+        "activityGroup": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1662",
+      "attributes": {
+        "filename": "pack_work-performance_focus_header__1488501192547.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      },
+      "relationships": {
+        "encodedMedia": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3249",
+      "attributes": {
+        "filename": "pack-performance-focus-pattern-mob-player__1493943014223.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      },
+      "relationships": {
+        "encodedMedia": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3311",
+      "attributes": {
+        "filename": "production-pack-category-performance__1495585845101.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      },
+      "relationships": {
+        "encodedMedia": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1789",
+      "attributes": {
+        "filename": "pack-performance-focus-pattern-mob-tile__1488501975924.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      },
+      "relationships": {
+        "encodedMedia": {
+          "data": null
+        }
+      }
+    }
+  ],
+  "data": {
+    "type": "activityGroups",
+    "id": "8",
+    "attributes": {
+      "name": "Focus",
+      "description": "Familiarize yourself with a relaxed, precise kind of focus. Neither too intense, nor too loose.",
+      "primaryColor": "#86D1AC",
+      "secondaryColor": "#67626E",
+      "tertiaryColor": "#FAF8F3",
+      "enabled": "ENABLED",
+      "privilegeRequirement": "SUBSCRIBER",
+      "firstSessionFree": false,
+      "numSessions": 30,
+      "isBasics": false,
+      "isV1": false,
+      "isFeatured": false,
+      "isNew": false,
+      "newDecorationId": null,
+      "featuredDecorationId": null
+    },
+    "relationships": {
+      "orderedActivities": {
+        "data": [
+          {
+            "type": "orderedActivities",
+            "id": "111"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "112"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "113"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "114"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "115"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "116"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "117"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "118"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "119"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "120"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "121"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "122"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "123"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "124"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "125"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "126"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "127"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "128"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "129"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "130"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "131"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "132"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "133"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "134"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "135"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "136"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "137"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "138"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "139"
+          },
+          {
+            "type": "orderedActivities",
+            "id": "140"
+          }
+        ]
+      },
+      "orderedTechniques": {
+        "data": [
+          {
+            "type": "orderedTechniques",
+            "id": "15"
+          },
+          {
+            "type": "orderedTechniques",
+            "id": "16"
+          }
+        ]
+      },
+      "bannerMedia": {
+        "data": {
+          "type": "mediaItems",
+          "id": "1662"
+        }
+      },
+      "patternMedia": {
+        "data": {
+          "type": "mediaItems",
+          "id": "3249"
+        }
+      },
+      "animationMedia": {
+        "data": null
+      },
+      "iconMedia": {
+        "data": {
+          "type": "mediaItems",
+          "id": "3311"
+        }
+      },
+      "primaryGroupCollection": {
+        "data": {
+          "type": "groupCollections",
+          "id": "12"
+        }
+      },
+      "tileMedia": {
+        "data": {
+          "type": "mediaItems",
+          "id": "1789"
+        }
+      },
+      "introMedia": {
+        "data": null
+      },
+      "prerequisiteActivityGroup": {
+        "data": null
+      },
+      "privileges": {
+        "data": [
+          {
+            "type": "privileges",
+            "id": "1"
+          },
+          {
+            "type": "privileges",
+            "id": "2"
+          }
+        ]
+      }
+    }
+  }
+}

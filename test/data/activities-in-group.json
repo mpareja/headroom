@@ -1,0 +1,4156 @@
+{
+  "meta": {
+    "total-pages": 1
+  },
+  "data": [
+    {
+      "type": "activities",
+      "id": "251",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 1"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "752"
+            },
+            {
+              "type": "activityCards",
+              "id": "753"
+            },
+            {
+              "type": "activityCards",
+              "id": "1747"
+            },
+            {
+              "type": "activityCards",
+              "id": "1748"
+            },
+            {
+              "type": "activityCards",
+              "id": "1749"
+            },
+            {
+              "type": "activityCards",
+              "id": "1750"
+            },
+            {
+              "type": "activityCards",
+              "id": "1751"
+            },
+            {
+              "type": "activityCards",
+              "id": "1870"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "751"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1736"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1737"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "252"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "252",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 2"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "755"
+            },
+            {
+              "type": "activityCards",
+              "id": "756"
+            },
+            {
+              "type": "activityCards",
+              "id": "1753"
+            },
+            {
+              "type": "activityCards",
+              "id": "1754"
+            },
+            {
+              "type": "activityCards",
+              "id": "1755"
+            },
+            {
+              "type": "activityCards",
+              "id": "1757"
+            },
+            {
+              "type": "activityCards",
+              "id": "1758"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "752"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1734"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1735"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "253"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "253",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 3"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "759"
+            },
+            {
+              "type": "activityCards",
+              "id": "1759"
+            },
+            {
+              "type": "activityCards",
+              "id": "1760"
+            },
+            {
+              "type": "activityCards",
+              "id": "1761"
+            },
+            {
+              "type": "activityCards",
+              "id": "1762"
+            },
+            {
+              "type": "activityCards",
+              "id": "1763"
+            },
+            {
+              "type": "activityCards",
+              "id": "1764"
+            },
+            {
+              "type": "activityCards",
+              "id": "1765"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "753"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1738"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1739"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "254"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "254",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 4"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "761"
+            },
+            {
+              "type": "activityCards",
+              "id": "762"
+            },
+            {
+              "type": "activityCards",
+              "id": "1766"
+            },
+            {
+              "type": "activityCards",
+              "id": "1767"
+            },
+            {
+              "type": "activityCards",
+              "id": "1768"
+            },
+            {
+              "type": "activityCards",
+              "id": "1769"
+            },
+            {
+              "type": "activityCards",
+              "id": "1770"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "754"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1740"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1741"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "255"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "255",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 5"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "764"
+            },
+            {
+              "type": "activityCards",
+              "id": "1774"
+            },
+            {
+              "type": "activityCards",
+              "id": "1775"
+            },
+            {
+              "type": "activityCards",
+              "id": "1778"
+            },
+            {
+              "type": "activityCards",
+              "id": "1779"
+            },
+            {
+              "type": "activityCards",
+              "id": "1780"
+            },
+            {
+              "type": "activityCards",
+              "id": "1824"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "755"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1743"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1745"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "256"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "256",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 6"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "767"
+            },
+            {
+              "type": "activityCards",
+              "id": "768"
+            },
+            {
+              "type": "activityCards",
+              "id": "1781"
+            },
+            {
+              "type": "activityCards",
+              "id": "1782"
+            },
+            {
+              "type": "activityCards",
+              "id": "1784"
+            },
+            {
+              "type": "activityCards",
+              "id": "1785"
+            },
+            {
+              "type": "activityCards",
+              "id": "1786"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "756"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1742"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1744"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "257"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "257",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 7"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "770"
+            },
+            {
+              "type": "activityCards",
+              "id": "771"
+            },
+            {
+              "type": "activityCards",
+              "id": "1791"
+            },
+            {
+              "type": "activityCards",
+              "id": "1792"
+            },
+            {
+              "type": "activityCards",
+              "id": "1793"
+            },
+            {
+              "type": "activityCards",
+              "id": "1794"
+            },
+            {
+              "type": "activityCards",
+              "id": "1795"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "757"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1746"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1747"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "258"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "258",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 8"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "773"
+            },
+            {
+              "type": "activityCards",
+              "id": "774"
+            },
+            {
+              "type": "activityCards",
+              "id": "1796"
+            },
+            {
+              "type": "activityCards",
+              "id": "1797"
+            },
+            {
+              "type": "activityCards",
+              "id": "1799"
+            },
+            {
+              "type": "activityCards",
+              "id": "1801"
+            },
+            {
+              "type": "activityCards",
+              "id": "1802"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "758"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1748"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1749"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "259"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "259",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 9"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "776"
+            },
+            {
+              "type": "activityCards",
+              "id": "777"
+            },
+            {
+              "type": "activityCards",
+              "id": "1803"
+            },
+            {
+              "type": "activityCards",
+              "id": "1804"
+            },
+            {
+              "type": "activityCards",
+              "id": "1805"
+            },
+            {
+              "type": "activityCards",
+              "id": "1806"
+            },
+            {
+              "type": "activityCards",
+              "id": "1807"
+            },
+            {
+              "type": "activityCards",
+              "id": "1808"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "759"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1750"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1751"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": [
+            {
+              "type": "activities",
+              "id": "260"
+            }
+          ]
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    },
+    {
+      "type": "activities",
+      "id": "260",
+      "attributes": {
+        "privilegeRequirement": null,
+        "enabled": "ENABLED",
+        "format": "AUDIO",
+        "name": "Session 10"
+      },
+      "relationships": {
+        "cards": {
+          "data": [
+            {
+              "type": "activityCards",
+              "id": "779"
+            },
+            {
+              "type": "activityCards",
+              "id": "781"
+            },
+            {
+              "type": "activityCards",
+              "id": "1809"
+            },
+            {
+              "type": "activityCards",
+              "id": "1810"
+            },
+            {
+              "type": "activityCards",
+              "id": "1811"
+            },
+            {
+              "type": "activityCards",
+              "id": "1812"
+            },
+            {
+              "type": "activityCards",
+              "id": "1813"
+            },
+            {
+              "type": "activityCards",
+              "id": "1814"
+            },
+            {
+              "type": "activityCards",
+              "id": "1815"
+            },
+            {
+              "type": "activityCards",
+              "id": "1816"
+            }
+          ]
+        },
+        "variations": {
+          "data": [
+            {
+              "type": "activityVariations",
+              "id": "760"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1752"
+            },
+            {
+              "type": "activityVariations",
+              "id": "1753"
+            }
+          ]
+        },
+        "unlockedActivities": {
+          "data": []
+        },
+        "primaryActivityGroup": {
+          "data": {
+            "type": "activityGroups",
+            "id": "16"
+          }
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "activityCards",
+      "id": "752",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 23,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "753",
+      "attributes": {
+        "text": "It's normal for your thoughts to wander. Simply try to take a step back and appreciate having a little Headspace.",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 24,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2031",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s1-1_mob__1489518176343.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1747",
+      "attributes": {
+        "text": "Hey there, welcome to Headspace.",
+        "subtext": null,
+        "title": "Welcome to Headspace.",
+        "ordinalNumber": 0,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2031"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2032",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s1-3_mob__1489518176420.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1748",
+      "attributes": {
+        "text": "It’s okay if you’ve never meditated before.",
+        "subtext": null,
+        "title": "ImageThenText2",
+        "ordinalNumber": 2,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2032"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3561",
+      "attributes": {
+        "filename": "basics-getting_started-en-170719__1501111548522.png",
+        "mimeType": "image/png",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3560",
+      "attributes": {
+        "filename": "wisdom-getting_started-en-170726__1501111527427.mp4",
+        "mimeType": "video/mp4",
+        "generalType": "VIDEO"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1749",
+      "attributes": {
+        "text": "In fact, we made a quick video to help you learn the basics.",
+        "subtext": null,
+        "title": "Video3",
+        "ordinalNumber": 4,
+        "cardType": "VIDEO"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3561"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3560"
+          }
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1750",
+      "attributes": {
+        "text": "We’ll show you how to train your mind for a happier, healthier life.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 1,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1871",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s1-7_mob__1488506980367.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1751",
+      "attributes": {
+        "text": "Now, get ready to sit back and enjoy a little Headspace.",
+        "subtext": null,
+        "title": "ImageThenText5",
+        "ordinalNumber": 5,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1871"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1843",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s1-5_mob__1488506972726.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1870",
+      "attributes": {
+        "text": "We’ll guide you through each step.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "251"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1843"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2173",
+      "attributes": {
+        "filename": "pack_the-basics_s1_10m_en_170307__1490220218151.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "751",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2173"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2162",
+      "attributes": {
+        "filename": "pack_the-basics_s1_3m_en_170320__1490219973044.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1736",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2162"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2185",
+      "attributes": {
+        "filename": "pack_the-basics_s1_5m_en_170320__1490220304638.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1737",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2185"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "755",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 21,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "756",
+      "attributes": {
+        "text": "Meditation isn't about getting rid of your thoughts. It's about learning how to be at ease with them. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 22,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1753",
+      "attributes": {
+        "text": "You've probably realized that meditation isn't about stopping your thoughts.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1754",
+      "attributes": {
+        "text": "It takes practice to improve.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1841",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s2-3_mob__1488506972466.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1755",
+      "attributes": {
+        "text": "It's more like a skill.",
+        "subtext": null,
+        "title": "3",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1841"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1757",
+      "attributes": {
+        "text": "All you need to do is set aside a little time each day.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 3,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1842",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s2-7_mob__1488506972686.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1758",
+      "attributes": {
+        "text": "And you'll feel more comfortable with your mind in no time.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 4,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "252"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1842"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2170",
+      "attributes": {
+        "filename": "pack_the-basics_s2_10m_en_170307__1490220216996.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "752",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2170"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2182",
+      "attributes": {
+        "filename": "pack_the-basics_s2_5m_en_170320__1490220303907.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1734",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2182"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2165",
+      "attributes": {
+        "filename": "pack_the-basics_s2_3m_en_170320__1490219973390.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1735",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2165"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "759",
+      "attributes": {
+        "text": "What is important is how we relate to our thoughts and how we acknowledge becoming distracted by them. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 23,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1759",
+      "attributes": {
+        "text": "Meditation isn't quite what people imagine it to be.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1844",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s3-3_mob__1488506972759.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1760",
+      "attributes": {
+        "text": "It's about changing your relationship with thoughts and feelings.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1844"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1761",
+      "attributes": {
+        "text": "And learning to view them with perspective.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1762",
+      "attributes": {
+        "text": "But that's okay. It just takes practice.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 4,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1845",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s3-5_mob__1488506973032.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1763",
+      "attributes": {
+        "text": "You'll occasionally get distracted and forget.",
+        "subtext": null,
+        "title": "4",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1845"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3563",
+      "attributes": {
+        "filename": "basics-changing_perspective-en-170719__1501111618876.png",
+        "mimeType": "image/png",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3562",
+      "attributes": {
+        "filename": "wisdom-changing_perspective-en-170726__1501111606965.mp4",
+        "mimeType": "video/mp4",
+        "generalType": "VIDEO"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1764",
+      "attributes": {
+        "text": "This video talks about it in a little more detail.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 5,
+        "cardType": "VIDEO"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3563"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3562"
+          }
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1765",
+      "attributes": {
+        "text": "",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 22,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "253"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2172",
+      "attributes": {
+        "filename": "pack_the-basics_s3_10m_en_170307__1490220217209.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "753",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2172"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2160",
+      "attributes": {
+        "filename": "pack_the-basics_s3_3m_en_170320__1490219972752.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1738",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2160"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2181",
+      "attributes": {
+        "filename": "pack_the-basics_s3_5m_en_170320__1490220303368.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1739",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2181"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "761",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 22,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "762",
+      "attributes": {
+        "text": "Pause for a moment to notice how you feel right now. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 23,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1766",
+      "attributes": {
+        "text": "Meditating consistently can be difficult.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1846",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s4-3_mob__1488506973034.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1767",
+      "attributes": {
+        "text": "But there are ways to make it easier.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1846"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1768",
+      "attributes": {
+        "text": "Try to anchor your practice to another part of your routine.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1849",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s4-5_mob__1488506973297.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1769",
+      "attributes": {
+        "text": "Like brushing your teeth.",
+        "subtext": null,
+        "title": "4",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1849"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1770",
+      "attributes": {
+        "text": "Wake up and think: brush teeth, meditate, shower.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 4,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "254"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2171",
+      "attributes": {
+        "filename": "pack_the-basics_s4_10m_en_170307__1490220217070.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "754",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2171"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2163",
+      "attributes": {
+        "filename": "pack_the-basics_s4_3m_en_170320__1490219973259.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1740",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2163"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2180",
+      "attributes": {
+        "filename": "pack_the-basics_s4_5m_en_170320__1490220302786.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1741",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2180"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "764",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 20,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1774",
+      "attributes": {
+        "text": "The idea of effort is a bit weird when you meditate.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1851",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s5-3_mob__1488506973333.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1775",
+      "attributes": {
+        "text": "Meditation is about letting go, not trying, not doing anything in fact.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1851"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1778",
+      "attributes": {
+        "text": "So, for today's session, don't worry about achieving anything.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1857",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s5-7_mob__1488506973956.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1779",
+      "attributes": {
+        "text": "Just sit back and enjoy being present in the world.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1857"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3565",
+      "attributes": {
+        "filename": "basics-letting_go_of_effort-en-170719__1501111680910.png",
+        "mimeType": "image/png",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3564",
+      "attributes": {
+        "filename": "wisdom-letting_go_of_effort-en-170726__1501111669594.mp4",
+        "mimeType": "video/mp4",
+        "generalType": "VIDEO"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1780",
+      "attributes": {
+        "text": "This video might help.",
+        "subtext": null,
+        "title": "7",
+        "ordinalNumber": 4,
+        "cardType": "VIDEO"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3565"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3564"
+          }
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1824",
+      "attributes": {
+        "text": "Try not to overthink the process too much. Instead, enjoy the feeling of pausing to balance and catch your breath.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 21,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "255"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2174",
+      "attributes": {
+        "filename": "pack_the-basics_s5_10m_en_170307__1490220218488.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "755",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2174"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2184",
+      "attributes": {
+        "filename": "pack_the-basics_s5_5m_en_170320__1490220304090.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1743",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2184"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2164",
+      "attributes": {
+        "filename": "pack_the-basics_s5_3m_en_170320__1490219973268.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1745",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2164"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "767",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 21,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "768",
+      "attributes": {
+        "text": "Did you uncover some tension? Or maybe you found yourself relaxed already? Remember, neither is right or wrong. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 22,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1781",
+      "attributes": {
+        "text": "Unpleasant sensations can happen.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1853",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s6-3_mob__1488506973528.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1782",
+      "attributes": {
+        "text": "Maybe you've got an itch or some anxiety or even some discomfort.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1853"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1854",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s6-5_mob__1488506973605.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1784",
+      "attributes": {
+        "text": "Rather than running away from them.",
+        "subtext": null,
+        "title": "4",
+        "ordinalNumber": 2,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1854"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1785",
+      "attributes": {
+        "text": "Allow them to arise and be curious instead.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 3,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1858",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s6-7_mob__1488506974033.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1786",
+      "attributes": {
+        "text": "They'll help you get to know your mind a little better.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 4,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "256"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1858"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2175",
+      "attributes": {
+        "filename": "pack_the-basics_s6_10m_en_170307__1490220220703.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "756",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2175"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2161",
+      "attributes": {
+        "filename": "pack_the-basics_s6_3m_en_170320__1490219972924.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1742",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2161"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2183",
+      "attributes": {
+        "filename": "pack_the-basics_s6_5m_en_170320__1490220304049.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1744",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2183"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "770",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 20,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "771",
+      "attributes": {
+        "text": "There's always a chance of clouds, but the idea of the blue sky will help things feel a little bit lighter.",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 21,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1791",
+      "attributes": {
+        "text": "Seeing your mind clearly is useful.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1870",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s7-7_mob__1488506975387.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1792",
+      "attributes": {
+        "text": "It can help you respond more skillfully to difficult situations.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1870"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1793",
+      "attributes": {
+        "text": "And it can help you find another place in your mind.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1861",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s7-9_mob__1488506974427.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1794",
+      "attributes": {
+        "text": "A place of calm that's always there.",
+        "subtext": null,
+        "title": "7",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1861"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3567",
+      "attributes": {
+        "filename": "basics-underlying_calm-en-170719__1501111737341.png",
+        "mimeType": "image/png",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3566",
+      "attributes": {
+        "filename": "wisdom-underlying_calm-en-170726__1501111719208.mp4",
+        "mimeType": "video/mp4",
+        "generalType": "VIDEO"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1795",
+      "attributes": {
+        "text": "This video explains a little more about it.",
+        "subtext": null,
+        "title": "7",
+        "ordinalNumber": 4,
+        "cardType": "VIDEO"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "257"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3567"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3566"
+          }
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2177",
+      "attributes": {
+        "filename": "pack_the-basics_s7_10m_en_170307__1490220226413.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "757",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2177"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2188",
+      "attributes": {
+        "filename": "pack_the-basics_s7_5m_en_170320__1490220308954.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1746",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2188"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2166",
+      "attributes": {
+        "filename": "pack_the-basics_s7_3m_en_170320__1490219978778.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1747",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2166"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "773",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 20,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "774",
+      "attributes": {
+        "text": "Consider the emotional quality of your mind today. Remember there is no right or wrong. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 21,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1796",
+      "attributes": {
+        "text": "Have you noticed anything new since you started meditating?",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1863",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s8-3_mob__1488506974493.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1797",
+      "attributes": {
+        "text": "Maybe you're a little more attentive to thoughts.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1863"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1799",
+      "attributes": {
+        "text": "Or a bit more conscious of your emotions.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1862",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s8-7_mob__1488506974429.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1801",
+      "attributes": {
+        "text": "That awareness helps us begin to better understand the mind.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1862"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1802",
+      "attributes": {
+        "text": "And, as a result, we start to experience an entirely new perspective.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 4,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "258"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2176",
+      "attributes": {
+        "filename": "pack_the-basics_s8_10m_en_170307__1490220226176.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "758",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2176"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2168",
+      "attributes": {
+        "filename": "pack_the-basics_s8_3m_en_170320__1490219979461.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1748",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2168"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2187",
+      "attributes": {
+        "filename": "pack_the-basics_s8_5m_en_170320__1490220308938.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1749",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2187"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "776",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 22,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "777",
+      "attributes": {
+        "text": "No matter how much you might want the mind to be free from thoughts, resisting them only creates tension.",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 23,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1803",
+      "attributes": {
+        "text": "The mind can be a weird place.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1865",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s9-3_mob__1488506974658.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1804",
+      "attributes": {
+        "text": "Accepting what comes and goes takes practice.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1865"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1805",
+      "attributes": {
+        "text": "But doing so can help us be less judgmental.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1864",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s9-5_mob__1488506974587.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1806",
+      "attributes": {
+        "text": "Not just of ourselves but of others too.",
+        "subtext": null,
+        "title": "4",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1864"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1807",
+      "attributes": {
+        "text": "So we become more at ease with the world around us.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 4,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3568",
+      "attributes": {
+        "filename": "basics-accepting_the_mind-en-170719__1501111766676.png",
+        "mimeType": "image/png",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "3569",
+      "attributes": {
+        "filename": "wisdom-accepting_the_mind-en-170726__1501111786202.mp4",
+        "mimeType": "video/mp4",
+        "generalType": "VIDEO"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1808",
+      "attributes": {
+        "text": "This video talks about it in more detail.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 5,
+        "cardType": "VIDEO"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "259"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3568"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "3569"
+          }
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2178",
+      "attributes": {
+        "filename": "pack_the-basics_s9_10m_en_170307__1490220226811.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "759",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2178"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2167",
+      "attributes": {
+        "filename": "pack_the-basics_s9_3m_en_170320__1490219978988.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1750",
+      "attributes": {
+        "ordinalNumber": 0,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2167"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2186",
+      "attributes": {
+        "filename": "pack_the-basics_s9_5m_en_170320__1490220308695.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1751",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2186"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "779",
+      "attributes": {
+        "text": null,
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 28,
+        "cardType": "SESSION"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "781",
+      "attributes": {
+        "text": "There's so much to discover and explore with the mind. ",
+        "subtext": null,
+        "title": "User Statistics Card",
+        "ordinalNumber": 29,
+        "cardType": "STAT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1809",
+      "attributes": {
+        "text": "You've done great making it to the last day of the Basics.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 0,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1866",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s10-3_mob__1488506974741.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1810",
+      "attributes": {
+        "text": "So great, in fact, that meditation might have already changed your brain.",
+        "subtext": null,
+        "title": "2",
+        "ordinalNumber": 1,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1866"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1811",
+      "attributes": {
+        "text": "Through neuroplasticity, your brain creates new neural pathways.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 2,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1867",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s10-5_mob__1488506974764.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1812",
+      "attributes": {
+        "text": "Every time you meditate, you make it a little easier to process thoughts and emotions.",
+        "subtext": null,
+        "title": "4",
+        "ordinalNumber": 3,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1867"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1813",
+      "attributes": {
+        "text": "So don't worry if there are still lots of thoughts running around.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 4,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1868",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s10-7__1488506974869.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1814",
+      "attributes": {
+        "text": "That's perfectly normal at this stage.",
+        "subtext": null,
+        "title": "6",
+        "ordinalNumber": 5,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1868"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1815",
+      "attributes": {
+        "text": "Just keep practicing.",
+        "subtext": null,
+        "title": null,
+        "ordinalNumber": 6,
+        "cardType": "TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": null
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "1869",
+      "attributes": {
+        "filename": "pack_foundation-1_warmup_s10-9_mob__1488506975039.ai",
+        "mimeType": "application/postscript",
+        "generalType": "IMAGE"
+      }
+    },
+    {
+      "type": "activityCards",
+      "id": "1816",
+      "attributes": {
+        "text": "Each day is a new opportunity to train your mind for a happier, healthier life.",
+        "subtext": null,
+        "title": "8",
+        "ordinalNumber": 7,
+        "cardType": "IMAGE_THEN_TEXT"
+      },
+      "relationships": {
+        "activity": {
+          "data": {
+            "type": "activities",
+            "id": "260"
+          }
+        },
+        "imageMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "1869"
+          }
+        },
+        "videoMedia": {
+          "data": null
+        },
+        "activityCardTags": {
+          "data": []
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "5267",
+      "attributes": {
+        "filename": "pack_the-basics_s10_10m_en_180109__1516123828499.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "760",
+      "attributes": {
+        "ordinalNumber": 3,
+        "duration": 10
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "5267"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2169",
+      "attributes": {
+        "filename": "pack_the-basics_s10_3m_en_170320__1490219980585.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1752",
+      "attributes": {
+        "ordinalNumber": 1,
+        "duration": 3
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2169"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "mediaItems",
+      "id": "2189",
+      "attributes": {
+        "filename": "pack_the-basics_s10_5m_en_170320__1490220309514.mp3",
+        "mimeType": "audio/mpeg",
+        "generalType": "AUDIO"
+      }
+    },
+    {
+      "type": "activityVariations",
+      "id": "1753",
+      "attributes": {
+        "ordinalNumber": 2,
+        "duration": 5
+      },
+      "relationships": {
+        "mediaItem": {
+          "data": {
+            "type": "mediaItems",
+            "id": "2189"
+          }
+        },
+        "activity": {
+          "data": null
+        }
+      }
+    }
+  ]
+}

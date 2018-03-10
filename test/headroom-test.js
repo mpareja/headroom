@@ -8,24 +8,27 @@ const groups = require('./data/group-collections.json')
 const authorization = process.env.HEADROOM_BEARER
 
 const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
+const url = `https://api.prod.${magic}.com`
+
 const api = ((magic) => {
+  async function get (path) {
+    const url = `https://api.prod.${magic}.com${path}`
+    const res = await fetch(url, { headers: { authorization } })
+
+    if (res.status !== 200) {
+      const error = new Error(`unexpected ${res.status} http status`)
+      error.status = 200
+      throw error
+    }
+
+    return res.json()
+  }
+
   return {
     getGroupCollections: async () => {
-      const res = await fetch(`https://api.prod.${magic}.com/content/group-collections?limit=-1`, {
-        method: 'GET',
-        headers: {
-          'Accept': 'application/vnd.api+json',
-          authorization
-        }
-      })
+      const json = await get('/content/group-collections?limit=-1')
 
-      if (res.status !== 200) {
-        const error = new Error(`unexpected ${res.status} http status`)
-        error.status = 200
-        throw error
-      }
-
-      const { data } = await res.json()
+      const { data } = json
       return data.map(item => ({
         id: item.id,
         category: item.attributes.category,
@@ -34,9 +37,7 @@ const api = ((magic) => {
     },
 
     getActivityGroup: async (activityGroupId) => {
-      const url = `https://api.prod.${magic}.com/content/activity-groups/${activityGroupId}`
-      const res = await fetch(url, { headers: { authorization } })
-      const json = await res.json()
+      const json = await get(`/content/activity-groups/${activityGroupId}`)
       const item = json.data
       return {
         id: item.id,
@@ -44,15 +45,22 @@ const api = ((magic) => {
         description: item.attributes.description,
         orderedActivities: item.relationships.orderedActivities.data.map(a => a.id)
       }
+    },
+
+    getActivitiesInGroup: async (activityGroupId) => {
+      const json = await get(`/content/activities?activityGroupIds=${activityGroupId}&limit=-1`)
+      return json.data.map(item => ({
+        id: item.id,
+        name: item.attributes.name,
+        format: item.attributes.format
+      }))
     }
   }
 })(magic)
 
 describe('headroom', () => {
-  it('fetches group collections groups', async () => {
-    // nock.recorder.rec()
-
-    nock(`https://api.prod.${magic}.com:443`, {'encodedQueryParams': true})
+  it('fetches group collections', async () => {
+    nock(url, {'encodedQueryParams': true})
       .get('/content/group-collections')
       .query({'limit': '-1'})
       .reply(200, groups)
@@ -62,8 +70,22 @@ describe('headroom', () => {
     assert.deepEqual(results[0], { id: '1', category: 'MINIS', name: 'Minis' })
   })
 
+  it('handles errors fetching group collections', async () => {
+    nock(url, {'encodedQueryParams': true})
+      .get('/content/group-collections')
+      .query({'limit': '-1'})
+      .reply(500, groups)
+
+    try {
+      await api.getGroupCollections()
+    } catch (e) {
+      assert.instanceOf(e, Error)
+      assert.equal(e.message, 'unexpected 500 http status')
+    }
+  })
+
   it('fetches activities groups', async () => {
-    nock(`https://api.prod.${magic}.com:443`, {'encodedQueryParams': true})
+    nock(url, {'encodedQueryParams': true})
       .get('/content/activity-groups/8')
       .reply(200, require('./data/activity-group.json'))
 
@@ -79,6 +101,26 @@ describe('headroom', () => {
         '137', '138', '139', '140'
       ]
     })
+  })
+
+  it('fetches activities in activity group', async () => {
+    nock(url)
+      .get('/content/activities?activityGroupIds=16&limit=-1')
+      .reply(200, require('./data/activities-in-group.json'))
+
+    const result = await api.getActivitiesInGroup(16)
+    assert.deepEqual(result, [
+      { id: '251', name: 'Session 1', format: 'AUDIO' },
+      { id: '252', name: 'Session 2', format: 'AUDIO' },
+      { id: '253', name: 'Session 3', format: 'AUDIO' },
+      { id: '254', name: 'Session 4', format: 'AUDIO' },
+      { id: '255', name: 'Session 5', format: 'AUDIO' },
+      { id: '256', name: 'Session 6', format: 'AUDIO' },
+      { id: '257', name: 'Session 7', format: 'AUDIO' },
+      { id: '258', name: 'Session 8', format: 'AUDIO' },
+      { id: '259', name: 'Session 9', format: 'AUDIO' },
+      { id: '260', name: 'Session 10', format: 'AUDIO' }
+    ])
   })
 
   it('finds the token that should not be', function (done) {

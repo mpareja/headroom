@@ -4,7 +4,7 @@ const nock = require('nock')
 
 const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
 const url = `https://api.prod.${magic}.com`
-const rawApi = require('../lib/api')(magic)
+const rawApi = require('../lib/http-api')(magic)
 const api = require('../lib/api-transform')(rawApi)
 
 describe('headroom', () => {

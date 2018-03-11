@@ -16,7 +16,7 @@ describe('headroom', () => {
 
     const results = await api.getGroupCollections()
 
-    assert.deepEqual(results[0], { id: '1', category: 'MINIS', name: 'Minis' })
+    assert.deepEqual(results, [ { id: '12', category: 'PACK_GROUP', name: 'Work & Performance' } ])
   })
 
   it('handles errors fetching group collections', async () => {
@@ -54,21 +54,41 @@ describe('headroom', () => {
 
   it('fetches activities in activity group', async () => {
     nock(url)
-      .get('/content/activities?activityGroupIds=16&limit=-1')
+      .get('/content/activities?activityGroupIds=8&limit=-1')
       .reply(200, require('./data/activities-in-group.json'))
 
-    const result = await api.getActivitiesInGroup(16)
+    const result = await api.getActivitiesInGroup(8)
     assert.deepEqual(result, [
-      { id: '251', name: 'Session 1', format: 'AUDIO' },
-      { id: '252', name: 'Session 2', format: 'AUDIO' },
-      { id: '253', name: 'Session 3', format: 'AUDIO' },
-      { id: '254', name: 'Session 4', format: 'AUDIO' },
-      { id: '255', name: 'Session 5', format: 'AUDIO' },
-      { id: '256', name: 'Session 6', format: 'AUDIO' },
-      { id: '257', name: 'Session 7', format: 'AUDIO' },
-      { id: '258', name: 'Session 8', format: 'AUDIO' },
-      { id: '259', name: 'Session 9', format: 'AUDIO' },
-      { id: '260', name: 'Session 10', format: 'AUDIO' }
+      { id: '111', name: 'Session 1', format: 'AUDIO' },
+      { id: '112', name: 'Session 2', format: 'AUDIO' },
+      { id: '113', name: 'Session 3', format: 'AUDIO' },
+      { id: '114', name: 'Session 4', format: 'AUDIO' },
+      { id: '115', name: 'Session 5', format: 'AUDIO' },
+      { id: '116', name: 'Session 6', format: 'AUDIO' },
+      { id: '117', name: 'Session 7', format: 'AUDIO' },
+      { id: '118', name: 'Session 8', format: 'AUDIO' },
+      { id: '119', name: 'Session 9', format: 'AUDIO' },
+      { id: '120', name: 'Session 10', format: 'AUDIO' },
+      { id: '121', name: 'Session 11', format: 'AUDIO' },
+      { id: '122', name: 'Session 12', format: 'AUDIO' },
+      { id: '123', name: 'Session 13', format: 'AUDIO' },
+      { id: '124', name: 'Session 14', format: 'AUDIO' },
+      { id: '125', name: 'Session 15', format: 'AUDIO' },
+      { id: '126', name: 'Session 16', format: 'AUDIO' },
+      { id: '127', name: 'Session 17', format: 'AUDIO' },
+      { id: '128', name: 'Session 18', format: 'AUDIO' },
+      { id: '129', name: 'Session 19', format: 'AUDIO' },
+      { id: '130', name: 'Session 20', format: 'AUDIO' },
+      { id: '131', name: 'Session 21', format: 'AUDIO' },
+      { id: '132', name: 'Session 22', format: 'AUDIO' },
+      { id: '133', name: 'Session 23', format: 'AUDIO' },
+      { id: '134', name: 'Session 24', format: 'AUDIO' },
+      { id: '135', name: 'Session 25', format: 'AUDIO' },
+      { id: '136', name: 'Session 26', format: 'AUDIO' },
+      { id: '137', name: 'Session 27', format: 'AUDIO' },
+      { id: '138', name: 'Session 28', format: 'AUDIO' },
+      { id: '139', name: 'Session 29', format: 'AUDIO' },
+      { id: '140', name: 'Session 30', format: 'AUDIO' }
     ])
   })
 

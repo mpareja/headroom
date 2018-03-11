@@ -1,11 +1,11 @@
 'use strict'
 const assert = require('chai').assert
-const fetch = require('isomorphic-unfetch')
 const nock = require('nock')
 
 const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
 const url = `https://api.prod.${magic}.com`
-const api = require('../lib/api')(magic);
+const rawApi = require('../lib/api')(magic)
+const api = require('../lib/api-transform')(rawApi)
 
 describe('headroom', () => {
   it('fetches group collections', async () => {
@@ -38,7 +38,7 @@ describe('headroom', () => {
       .get('/content/activity-groups/8')
       .reply(200, require('./data/activity-group.json'))
 
-    const result = await api.getActivityGroup(8)
+    const result = await api.getActivityGroup('8')
 
     assert.deepEqual(result, {
       id: '8',

@@ -6,7 +6,7 @@ const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
 const url = `https://api.prod.${magic}.com`
 const api = require('../lib/http-api')(magic)
 
-describe('headroom', () => {
+describe('http-api', () => {
   it('fetches group collections', async () => {
     const groupCollectionsData = require('./data/group-collections.json')
 

@@ -22,7 +22,8 @@ describe('persistent-api-decorator', () => {
     const vol = new Volume()
     fs = createFsFromVolume(vol)
     readFile = promisify(fs.readFile)
-    api = await createPersistentApi(bogusApi, '/data', fs)
+    api = createPersistentApi(bogusApi, '/data', fs)
+    await promisify(fs.mkdir)('/data')
   })
 
   it('persists fetched group collection to disk', async () => {

@@ -36,4 +36,15 @@ describe('persistent-api-decorator', () => {
     const file = await readFile('/data/activities-in-group-8.json')
     assert.equal(file, 'the activities in the group 8')
   })
+
+  describe('api-decorator contract tests', () => {
+    const decorate = async (api) => {
+      const vol = new Volume()
+      const fs = createFsFromVolume(vol)
+      await promisify(fs.mkdir)('/data')
+      return createPersistentApi(api, '/data', fs)
+    }
+
+    require('./api-decorator-contract-test.js')(decorate, it)
+  })
 })

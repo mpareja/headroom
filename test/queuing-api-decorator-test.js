@@ -56,4 +56,10 @@ describe('queuing-api-decorator', () => {
     sinon.assert.calledOnce(stubApi.getActivityGroup)
     sinon.assert.calledOnce(stubApi.getActivitiesInGroup)
   })
+
+  describe('api-decorator contract tests', () => {
+    const decorate = (api) => createQueuingApi(api, 1)
+
+    require('./api-decorator-contract-test.js')(decorate, it)
+  })
 })

@@ -20,21 +20,21 @@ describe('persistent-api-decorator', () => {
     await api.getGroupCollections()
 
     const file = await readFile('/data/group-collections.json')
-    assert.equal(file, 'the group-collection')
+    assert.equal(file, '"the group-collection"')
   })
 
   it('persists fetched activity groups', async () => {
     await api.getActivityGroup('7')
 
     const file = await readFile('/data/activity-group-7.json')
-    assert.equal(file, 'the activity-group 7')
+    assert.equal(file, '"the activity-group 7"')
   })
 
   it('persists fetched activities', async () => {
     await api.getActivitiesInGroup('8')
 
     const file = await readFile('/data/activities-in-group-8.json')
-    assert.equal(file, 'the activities in the group 8')
+    assert.equal(file, '"the activities in the group 8"')
   })
 
   describe('api-decorator contract tests', () => {

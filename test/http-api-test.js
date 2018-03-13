@@ -34,7 +34,7 @@ describe('http-api', () => {
   })
 
   it('fetches activities groups', async () => {
-    const activityGroupData = require('./data/activity-group.json')
+    const activityGroupData = require('./data/activity-group-8.json')
 
     nock(url, {'encodedQueryParams': true})
       .get('/content/activity-groups/8')
@@ -45,7 +45,7 @@ describe('http-api', () => {
   })
 
   it('fetches activities in activity group', async () => {
-    const activitiesInGroupData = require('./data/activities-in-group.json')
+    const activitiesInGroupData = require('./data/activities-in-group-8.json')
 
     nock(url)
       .get('/content/activities?activityGroupIds=8&limit=-1')

@@ -36,7 +36,7 @@ describe('headroom', () => {
   it('fetches activities groups', async () => {
     nock(url, {'encodedQueryParams': true})
       .get('/content/activity-groups/8')
-      .reply(200, require('./data/activity-group.json'))
+      .reply(200, require('./data/activity-group-8.json'))
 
     const result = await api.getActivityGroup('8')
 
@@ -55,7 +55,7 @@ describe('headroom', () => {
   it('fetches activities in activity group', async () => {
     nock(url)
       .get('/content/activities?activityGroupIds=8&limit=-1')
-      .reply(200, require('./data/activities-in-group.json'))
+      .reply(200, require('./data/activities-in-group-8.json'))
 
     const result = await api.getActivitiesInGroup(8)
     assert.deepEqual(result, [

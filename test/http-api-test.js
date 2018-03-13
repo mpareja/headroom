@@ -29,7 +29,7 @@ describe('http-api', () => {
       await api.getGroupCollections()
     } catch (e) {
       assert.instanceOf(e, Error)
-      assert.equal(e.message, 'unexpected 500 http status')
+      assert.equal(e.message, 'unexpected 500 http status: /content/group-collections?limit=-1')
     }
   })
 

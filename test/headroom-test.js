@@ -19,20 +19,6 @@ describe('headroom', () => {
     assert.deepEqual(results, [ { id: '8', category: 'PACK_GROUP', name: 'Work & Performance' } ])
   })
 
-  it('handles errors fetching group collections', async () => {
-    nock(url, {'encodedQueryParams': true})
-      .get('/content/group-collections')
-      .query({'limit': '-1'})
-      .reply(500)
-
-    try {
-      await api.getGroupCollections()
-    } catch (e) {
-      assert.instanceOf(e, Error)
-      assert.equal(e.message, 'unexpected 500 http status')
-    }
-  })
-
   it('fetches activities groups', async () => {
     nock(url, {'encodedQueryParams': true})
       .get('/content/activity-groups/8')

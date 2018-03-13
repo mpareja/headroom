@@ -4,17 +4,7 @@ const promisify = require('util').promisify
 
 const createPersistentApi = require('../lib/persistent-api-decorator')
 
-const bogusApi = {
-  getGroupCollections: async () => {
-    return 'the group-collection'
-  },
-  getActivityGroup: async (id) => {
-    return `the activity-group ${id}`
-  },
-  getActivitiesInGroup: async (id) => {
-    return `the activities in the group ${id}`
-  }
-}
+const bogusApi = require('../lib/stub-api.js')()
 
 describe('persistent-api-decorator', () => {
   let api, fs, readFile

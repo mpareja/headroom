@@ -16,7 +16,7 @@ describe('headroom', () => {
 
     const results = await api.getGroupCollections()
 
-    assert.deepEqual(results, [ { id: '12', category: 'PACK_GROUP', name: 'Work & Performance' } ])
+    assert.deepEqual(results, [ { id: '8', category: 'PACK_GROUP', name: 'Work & Performance' } ])
   })
 
   it('handles errors fetching group collections', async () => {

@@ -81,7 +81,7 @@ describe('headroom', () => {
   it('finds the token that should not be', function (done) {
     this.timeout(20000)
     const { exec } = require('child_process')
-    exec(`grep -r ${magic} .`, (err) => {
+    exec(`grep --exclude-dir datastore -r ${magic} .`, (err) => {
       if (!err) {
         throw new Error(`${magic} found in source code`)
       }

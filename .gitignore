@@ -10,4 +10,4 @@ terraform.tfvars
 terraform.tfstate.backup
 **/.DS_Store
 
-data
+datastore

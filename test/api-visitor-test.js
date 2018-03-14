@@ -30,6 +30,21 @@ describe('api-visitor', () => {
     assert.equal(mispy.callCount, 30 * 3) // 30 episodes 3 lengths
   })
 
+  it('supports starting visit from an activity group', async () => {
+    await visitor.visitActivityGroup(getFileApi(), '8')
+
+    sinon.assert.calledOnce(agspy)
+    assert.equal(mispy.callCount, 30 * 3) // 30 episodes 3 lengths
+  })
+
+  it('for performance, does not find media-items if no listener is attached', async () => {
+    visitor.removeListener('media-item', mispy)
+    sinon.spy(visitor, 'emit')
+    await visitor.visit(getFileApi())
+
+    sinon.assert.neverCalledWith(visitor.emit, 'media-item')
+  })
+
   it('handles errors in getActivityGroup', async () => {
     const bogusError = new Error('bogus')
     const api = getFileApi()
@@ -62,5 +77,16 @@ describe('api-visitor', () => {
     assert.instanceOf(err, Error)
     assert.isDefined(err.activityGroupId)
     assert.equal(err.inner, bogusError)
+  })
+
+  it('handles supplying an invalid activity group', async () => {
+    let err
+    try {
+      await visitor.visitActivityGroup(getFileApi(), 'bogus')
+    } catch (e) {
+      err = e
+    }
+    assert.instanceOf(err, Error)
+    assert.equal(err.message, 'activity id "bogus" found in 0 groups, expected 1')
   })
 })

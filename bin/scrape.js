@@ -21,22 +21,29 @@ function withTracing (obj) {
   return new Proxy(obj, handler)
 }
 
-async function go (dirParam) {
+async function go (dirParam, activityGroupId) {
   const dir = path.resolve(process.cwd(), dirParam)
   const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
   const api = withPersistence(withQueuing(withTracing(httpApi(magic)), 15), dir, fs)
 
-  await promisify(fs.mkdir)(dir)
+  if (activityGroupId) {
+    const visitor = createVisitor()
+    visitor.on('error', console.error)
+    await visitor.visitActivityGroup(api, activityGroupId)
+  } else {
+    await promisify(fs.mkdir)(dir)
 
-  const visitor = createVisitor()
-  visitor.on('error', console.error)
-  await visitor.visit(api)
+    const visitor = createVisitor()
+    visitor.on('error', console.error)
+    await visitor.visit(api)
+  }
 }
 
 const dirParam = process.argv[2]
+const activityGroupId = process.argv[3]
 if (dirParam) {
-  go(dirParam)
+  go(dirParam, activityGroupId)
 } else {
-  console.log('SYNTAX: <output directory>')
+  console.log('SYNTAX: <output directory> [activityGroupId]')
   process.exit(1)
 }

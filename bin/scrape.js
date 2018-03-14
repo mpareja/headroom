@@ -29,6 +29,7 @@ async function go (dirParam) {
   await promisify(fs.mkdir)(dir)
 
   const visitor = createVisitor()
+  visitor.on('error', console.error)
   await visitor.visit(api)
 }
 

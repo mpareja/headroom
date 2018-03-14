@@ -54,4 +54,16 @@ describe('http-api', () => {
     const result = await api.getActivitiesInGroup(8)
     assert.deepEqual(result, activitiesInGroupData)
   })
+
+  it('fetches signed-urls for downloading audio', async () => {
+    nock(url, {'encodedQueryParams': true})
+      .get('/content/media-items/5267/make-signed-url')
+      .query({'mp3': 'true'})
+      .reply(200, { url: 'https://some-download-url' })
+
+    const result = await api.makeSignedUrl('5267')
+    assert.deepEqual(result, {
+      url: 'https://some-download-url'
+    });
+  })
 })

@@ -16,22 +16,6 @@
             {
               "type": "orderedGroups",
               "id": "27"
-            },
-            {
-              "type": "orderedGroups",
-              "id": "28"
-            },
-            {
-              "type": "orderedGroups",
-              "id": "30"
-            },
-            {
-              "type": "orderedGroups",
-              "id": "144"
-            },
-            {
-              "type": "orderedGroups",
-              "id": "244"
             }
           ]
         },
@@ -851,7 +835,7 @@
         "activityGroup": {
           "data": {
             "type": "activityGroups",
-            "id": "9"
+            "id": "8"
           }
         },
         "groupCollection": {

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
+const createVisitor = require('../lib/api-visitor.js')
 const fs = require('fs')
 const httpApi = require('../lib/http-api.js')
 const path = require('path')
 const promisify = require('util').promisify
-const scrape = require('../lib/scrape-api.js')
 const withPersistence = require('../lib/persistent-api-decorator.js')
 const withQueuing = require('../lib/queuing-api-decorator.js')
 
@@ -24,10 +24,12 @@ function withTracing (obj) {
 async function go (dirParam) {
   const dir = path.resolve(process.cwd(), dirParam)
   const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
-  const api = withQueuing(withPersistence(withTracing(httpApi(magic)), dir, fs), 15)
+  const api = withPersistence(withQueuing(withTracing(httpApi(magic)), 15), dir, fs)
 
   await promisify(fs.mkdir)(dir)
-  await scrape(api)
+
+  const visitor = createVisitor()
+  await visitor.visit(api)
 }
 
 const dirParam = process.argv[2]

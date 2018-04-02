@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "total-pages": 1
+  },
+  "data": [
+    {
+      "type": "animationGroups",
+      "id": "56",
+      "attributes": {
+        "title": "Getting Started",
+        "description": "How to begin with a brilliant attitude",
+        "ordinalNumber": 0
+      },
+      "relationships": {
+        "animations": {
+          "data": [
+            {
+              "type": "animations",
+              "id": "253"
+            },
+            {
+              "type": "animations",
+              "id": "254"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "animations",
+      "id": "253",
+      "attributes": {
+        "title": "Getting started",
+        "isLocked": false,
+        "lockedReason": null,
+        "lockedReasonCategory": null,
+        "lockedModalTitle": null,
+        "lockedCtaCopy": null,
+        "lockedCtaDestination": null,
+        "ordinalNumber": 0
+      },
+      "relationships": {
+        "thumbnailMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "4523"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "4497"
+          }
+        }
+      }
+    },
+    {
+      "type": "animations",
+      "id": "254",
+      "attributes": {
+        "title": "Changing perspective",
+        "isLocked": false,
+        "lockedReason": null,
+        "lockedReasonCategory": null,
+        "lockedModalTitle": null,
+        "lockedCtaCopy": null,
+        "lockedCtaDestination": null,
+        "ordinalNumber": 1
+      },
+      "relationships": {
+        "thumbnailMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "4518"
+          }
+        },
+        "videoMedia": {
+          "data": {
+            "type": "mediaItems",
+            "id": "4496"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -64,6 +64,18 @@ describe('http-api', () => {
     const result = await api.makeSignedUrl('5267')
     assert.deepEqual(result, {
       url: 'https://some-download-url'
-    });
+    })
+  })
+
+  it('fetches animation groups', async () => {
+    const animationGroupJson = require('./data/animation-group.json')
+
+    nock(url, {'encodedQueryParams': true})
+      .get('/content/view-models/animation-group')
+      .query({ userId: process.env.HEADROOM_USERID })
+      .reply(200, animationGroupJson)
+
+    const result = await api.getAnimationGroups()
+    assert.deepEqual(result, animationGroupJson)
   })
 })

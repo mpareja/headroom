@@ -10,7 +10,8 @@ describe('queuing-api-decorator', () => {
     stubApi = {
       getGroupCollections: sinon.spy(async () => delay(10)),
       getActivityGroup: sinon.spy(async () => delay(10)),
-      getActivitiesInGroup: sinon.spy(async () => delay(10))
+      getActivitiesInGroup: sinon.spy(async () => delay(10)),
+      getAnimationGroups: sinon.spy(async () => delay(10))
     }
   })
 
@@ -19,23 +20,33 @@ describe('queuing-api-decorator', () => {
     api.getGroupCollections()
     api.getActivityGroup()
     api.getActivitiesInGroup()
+    api.getAnimationGroups()
 
     await delay(5) // t = 5
 
     sinon.assert.calledOnce(stubApi.getGroupCollections)
     sinon.assert.notCalled(stubApi.getActivityGroup)
     sinon.assert.notCalled(stubApi.getActivitiesInGroup)
+    sinon.assert.notCalled(stubApi.getAnimationGroups)
 
     await delay(6) // t = 11
 
     sinon.assert.calledOnce(stubApi.getGroupCollections)
     sinon.assert.calledOnce(stubApi.getActivityGroup)
     sinon.assert.notCalled(stubApi.getActivitiesInGroup)
+    sinon.assert.notCalled(stubApi.getAnimationGroups)
 
     await delay(11) // t = 22
     sinon.assert.calledOnce(stubApi.getGroupCollections)
     sinon.assert.calledOnce(stubApi.getActivityGroup)
     sinon.assert.calledOnce(stubApi.getActivitiesInGroup)
+    sinon.assert.notCalled(stubApi.getAnimationGroups)
+
+    await delay(16) // t = 22
+    sinon.assert.calledOnce(stubApi.getGroupCollections)
+    sinon.assert.calledOnce(stubApi.getActivityGroup)
+    sinon.assert.calledOnce(stubApi.getActivitiesInGroup)
+    sinon.assert.calledOnce(stubApi.getAnimationGroups)
   })
 
   it('supports limitting concurrency to 2 at a time', async () => {
@@ -43,6 +54,7 @@ describe('queuing-api-decorator', () => {
     api.getGroupCollections()
     api.getActivityGroup()
     api.getActivitiesInGroup()
+    api.getAnimationGroups()
 
     await delay(5) // t = 5
 
@@ -55,6 +67,7 @@ describe('queuing-api-decorator', () => {
     sinon.assert.calledOnce(stubApi.getGroupCollections)
     sinon.assert.calledOnce(stubApi.getActivityGroup)
     sinon.assert.calledOnce(stubApi.getActivitiesInGroup)
+    sinon.assert.calledOnce(stubApi.getAnimationGroups)
   })
 
   describe('api-decorator contract tests', () => {

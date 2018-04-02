@@ -37,6 +37,13 @@ describe('persistent-api-decorator', () => {
     assert.equal(file, '"the activities in the group 8"')
   })
 
+  it('persists fetched animation group', async () => {
+    await api.getAnimationGroups()
+
+    const file = await readFile('/data/animation-group.json')
+    assert.equal(file, '"the animation groups"')
+  })
+
   describe('api-decorator contract tests', () => {
     const decorate = async (api) => {
       const vol = new Volume()

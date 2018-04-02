@@ -2,7 +2,7 @@
 main() {
 	local dir="$1/media"
 	mkdir -p $dir
-	$(dirname $0)/list-media-items.js $@ | process "$dir" "$dir/failures.json" skip
+	$(dirname $0)/list-media-items.js "$@" | process "$dir" "$dir/failures.json" skip
 }
 
 # errors while recovering will go to failures-more.json
@@ -34,11 +34,19 @@ process() {
 		curl "$fileUrl" -o "$dir/$filename"
 		if [ $? -ne 0 ]; then
 			echo "$data" >> "$failfile"
+			echo failed $filename
+		else
+			echo done $filename
 		fi
 	done
 }
 
-if [ $1 = "recover" ]; then
+if [ "$#" -ne 2 ]; then
+	echo "SYNTAX:"
+	echo "  <output directory> <-1 | media_duration>"
+	echo "  recover <datastore dir>"
+	exit 1
+elif [ "$1" = "recover" ]; then
 	shift
 	recover $@
 else

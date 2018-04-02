@@ -7,7 +7,8 @@ function go (dirParam, duration) {
   const dir = path.resolve(process.cwd(), dirParam)
   const api = fileApi(dir)
 
-  const mediaFilter = (item) => duration === -1 || item.duration === duration
+  const durations = duration.split(',').map(d => Number(d))
+  const mediaFilter = (item) => durations[0] === -1 || durations.indexOf(item.duration) >= 0
 
   const visitor = createVisitor()
   visitor.on('media-item', (mi) => mediaFilter(mi) && console.log(JSON.stringify(mi)))
@@ -17,8 +18,8 @@ function go (dirParam, duration) {
 
 const dirParam = process.argv[2]
 if (dirParam && process.argv[3]) {
-  go(dirParam, Number(process.argv[3]))
+  go(dirParam, process.argv[3])
 } else {
-  console.error('SYNTAX: <output directory> <duration>')
+  console.error('SYNTAX: <output directory> <durations csv>')
   process.exit(1)
 }

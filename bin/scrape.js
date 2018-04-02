@@ -2,6 +2,7 @@
 const createVisitor = require('../lib/api-visitor.js')
 const fs = require('fs')
 const httpApi = require('../lib/http-api.js')
+const magic = require('../lib/magic')
 const path = require('path')
 const promisify = require('util').promisify
 const withPersistence = require('../lib/persistent-api-decorator.js')
@@ -23,7 +24,6 @@ function withTracing (obj) {
 
 async function go (dirParam, activityGroupId) {
   const dir = path.resolve(process.cwd(), dirParam)
-  const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
   const api = withPersistence(withQueuing(withTracing(httpApi(magic)), 15), dir, fs)
 
   if (activityGroupId) {

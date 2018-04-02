@@ -2,7 +2,7 @@
 const assert = require('chai').assert
 const nock = require('nock')
 
-const magic = String.fromCharCode(104, 101, 97, 100, 115, 112, 97, 99, 101)
+const magic = require('../lib/magic')
 const url = `https://api.prod.${magic}.com`
 const rawApi = require('../lib/http-api')(magic)
 const api = require('../lib/api-transform')(rawApi)

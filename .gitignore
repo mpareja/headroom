@@ -11,3 +11,5 @@ terraform.tfstate.backup
 **/.DS_Store
 
 datastore
+.next
+.headroomrc

@@ -10,9 +10,9 @@ describe('http-api', () => {
   it('fetches group collections', async () => {
     const groupCollectionsData = require('./data/group-collections.json')
 
-    nock(url, {'encodedQueryParams': true})
+    nock(url, { encodedQueryParams: true })
       .get('/content/group-collections')
-      .query({'limit': '-1'})
+      .query({ limit: '-1' })
       .reply(200, groupCollectionsData)
 
     const results = await api.getGroupCollections()
@@ -20,9 +20,9 @@ describe('http-api', () => {
   })
 
   it('handles errors fetching group collections', async () => {
-    nock(url, {'encodedQueryParams': true})
+    nock(url, { encodedQueryParams: true })
       .get('/content/group-collections')
-      .query({'limit': '-1'})
+      .query({ limit: '-1' })
       .reply(500)
 
     try {
@@ -36,7 +36,7 @@ describe('http-api', () => {
   it('fetches activities groups', async () => {
     const activityGroupData = require('./data/activity-group-8.json')
 
-    nock(url, {'encodedQueryParams': true})
+    nock(url, { encodedQueryParams: true })
       .get('/content/activity-groups/8')
       .reply(200, activityGroupData)
 
@@ -56,9 +56,9 @@ describe('http-api', () => {
   })
 
   it('fetches signed-urls for downloading audio', async () => {
-    nock(url, {'encodedQueryParams': true})
+    nock(url, { encodedQueryParams: true })
       .get('/content/media-items/5267/make-signed-url')
-      .query({'mp3': 'true'})
+      .query({ mp3: 'true' })
       .reply(200, { url: 'https://some-download-url' })
 
     const result = await api.makeSignedUrl('5267')
@@ -70,9 +70,12 @@ describe('http-api', () => {
   it('fetches animation groups', async () => {
     const animationGroupJson = require('./data/animation-group.json')
 
-    nock(url, {'encodedQueryParams': true})
+    // if user id is not set while running tests, expect undefined
+    const userId = process.env.HEADROOM_USERID || 'undefined'
+
+    nock(url, { encodedQueryParams: true })
       .get('/content/view-models/animation-group')
-      .query({ userId: process.env.HEADROOM_USERID })
+      .query({ userId })
       .reply(200, animationGroupJson)
 
     const result = await api.getAnimationGroups()

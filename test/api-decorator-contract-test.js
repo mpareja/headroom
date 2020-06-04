@@ -9,16 +9,16 @@ module.exports = async (decorate, it) => {
 
   it('forwards getGroupCollections calls', async () => {
     const result = await api.getGroupCollections()
-    assert.equal(result, 'the group-collection')
+    assert.strictEqual(result, 'the group-collection')
   })
 
   it('forwards getActivityGroup calls', async () => {
     const result = await api.getActivityGroup(8)
-    assert.equal(result, 'the activity-group 8')
+    assert.strictEqual(result, 'the activity-group 8')
   })
 
   it('forwards getActivitiesInGroup calls', async () => {
     const result = await api.getActivitiesInGroup(8)
-    assert.equal(result, 'the activities in the group 8')
+    assert.strictEqual(result, 'the activities in the group 8')
   })
 }

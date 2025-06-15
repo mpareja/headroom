@@ -1,65 +1,62 @@
-import Container from '@material-ui/core/Container'
-import Grid from '@material-ui/core/Grid'
-import GridList from '@material-ui/core/GridList'
-import { makeStyles } from '@material-ui/core/styles'
+import Container from '@mui/material/Container'
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
 import { Navigation } from '../components/navigation'
 import { useState } from 'react'
 
 import createApi from '../lib/file-api'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1
-  },
-  collectionName: {
-    textAlign: 'center'
-  },
-  groupList: {
-    display: 'flex',
-    flexWrap: 'nowrap'
-  },
-  activity: {
-    padding: theme.spacing(2),
-    margin: theme.spacing(1.5),
-    textAlign: 'center',
-    backgroundColor: theme.palette.primary.main,
-    borderRadius: '6px',
-    width: '172px',
-    height: '216px',
-    [theme.breakpoints.up('sm')]: {
-      width: '328px',
-      height: '408px'
-    }
-  }
-}))
-
-const Header = () =>
-  <Container>
-    <h1 style={{ textAlign: 'center' }}>Headroom</h1>
-  </Container>
-
 const Collection = ({ collection }) => {
-  const classes = useStyles()
-
   return (
-    <>
-      <h3 className={classes.collectionName}>{collection.name}</h3>
-      <GridList cols={3.5} className={classes.groupList}>
+    <Box sx={{ mb: 4 }}>
+      <Typography variant='h3' sx={{ textAlign: 'center', mb: 2 }}>
+        {collection.name}
+      </Typography>
+      <Box sx={{
+        display: 'flex',
+        flexWrap: 'nowrap',
+        overflowX: 'auto',
+        gap: 2,
+        pb: 2
+      }}
+      >
         {collection.groups.map(group =>
           <ActivityCard key={group.id} name={group.name} />
         )}
-      </GridList>
-    </>
+      </Box>
+    </Box>
   )
 }
 
 const ActivityCard = ({ name }) => {
-  const classes = useStyles()
-
   return (
-    <Grid item>
-      <h3 className={classes.activity}>{name}</h3>
-    </Grid>
+    <Box
+      sx={{
+        padding: 2,
+        textAlign: 'center',
+        backgroundColor: 'primary.main',
+        borderRadius: '6px',
+        width: '172px',
+        height: '216px',
+        color: 'white',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexShrink: 0,
+        cursor: 'pointer',
+        '&:hover': {
+          backgroundColor: 'primary.dark'
+        },
+        '@media (min-width: 600px)': {
+          width: '328px',
+          height: '408px'
+        }
+      }}
+    >
+      <Typography variant='h6' sx={{ fontSize: { xs: '0.9rem', sm: '1.25rem' } }}>
+        {name}
+      </Typography>
+    </Box>
   )
 }
 
@@ -67,21 +64,22 @@ export default ({ classes, categories, collections }) => {
   const [categoryId, setCategoryId] = useState('PACK_GROUP')
   const handleChange = (_, categoryId) => setCategoryId(categoryId)
 
-  const category = categories.find(c => c.id === categoryId)
   const categoryCollections = collections[categoryId]
 
   return (
-    <Container>
-      {categoryCollections.map(collection => (
-        <Collection key={collection.id} collection={collection} />
-      ))}
+    <>
+      <Container sx={{ pb: 10 }}>
+        {categoryCollections.map(collection => (
+          <Collection key={collection.id} collection={collection} />
+        ))}
+      </Container>
       <Navigation categoryId={categoryId} onChange={handleChange} />
-    </Container>
+    </>
   )
 }
 
 const toPascal = (s) => s.replace(/_/g, ' ').replace(/(\w)(\w*)/g,
-  (g0,g1,g2) => g1.toUpperCase() + g2.toLowerCase())
+  (g0, g1, g2) => g1.toUpperCase() + g2.toLowerCase())
 
 // The data model:
 // [category: [collection: [group: [activity]]]]

@@ -1,9 +1,8 @@
-import CssBaseline from '@material-ui/core/CssBaseline'
+import CssBaseline from '@mui/material/CssBaseline'
 import Head from 'next/head'
-import PropTypes from 'prop-types'
 import React from 'react'
 import theme from '../lib/theme'
-import { ThemeProvider } from '@material-ui/core/styles'
+import { ThemeProvider } from '@mui/material/styles'
 
 export default function MyApp (props) {
   const { Component, pageProps } = props
@@ -29,9 +28,4 @@ export default function MyApp (props) {
       </ThemeProvider>
     </>
   )
-}
-
-MyApp.propTypes = {
-  Component: PropTypes.elementType.isRequired,
-  pageProps: PropTypes.object.isRequired
 }
